@@ -6,7 +6,7 @@ Instead of creating lots of types that are used throughout the app, types are de
 
 Instead of creating a Basin type and using it throughout the app we can define types that are used for each use case:
 
-```
+```F#
 type BasinId = int
 type Name = string
 type Code = string
